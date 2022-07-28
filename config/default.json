@@ -1,0 +1,9 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": 3000
+    },
+    "application": {
+        "name": "friday29jul-app-prac"
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "friday29jul",
+  "version": "1.0.0",
+  "description": "practice-day-1",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DRCUOA/friday29jul.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BSD 3-Clause",
+  "bugs": {
+    "url": "https://github.com/DRCUOA/friday29jul/issues"
+  },
+  "homepage": "https://richardclark.nz",
+  "dependencies": {
+    "config": "^3.3.7",
+    "directory-tree": "^3.3.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "joi": "^17.6.0"
+  },
+  "devDependencies": {
+    "debug": "^4.3.4",
+    "morgan": "^1.10.0"
+  }
+}
