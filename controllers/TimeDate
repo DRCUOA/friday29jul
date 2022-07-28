@@ -1,0 +1,11 @@
+const express = require('express')
+const { format }= require('date-fns');
+
+function getTimeStamp() {
+    const timeStamp = format(new Date(), 'dd-MM-yyyy HH:mm:ss')
+    return timeStamp;
+}
+
+module.exports = {
+    getTimeStamp,
+}
